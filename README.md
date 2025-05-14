@@ -59,9 +59,9 @@ choco install make
 
 На порту 8080 доступен сервер с путями
 
-GET /employees/ - Список employees
+- GET /employees/ - Список employees
 
-GET /employees/:id - Один employee по id
+- GET /employees/:id - Один employee по id
 
-POST /employees/create - Создание employee
+- POST /employees/create - Создание employee
 
