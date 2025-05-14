@@ -27,3 +27,7 @@ reset:
 
 seeds:
 	psql -h localhost -p 5432 -U postgres -d postgres -f seeds.sql
+
+
+run-api-server:
+	cd employees-server && go run main.go
